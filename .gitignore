@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Except for the .gitignore file itself
+!.gitignore
+
+# Except all files and folders under nivelacion directory    
+!nivelacion/
+!nivelacion/**/
+
+# Except all files with these extensions
+!*.py   
+!*.ipynb
+!*.md
+!*.txt
+!*.csv
+!*.json
+!*.ipynb
