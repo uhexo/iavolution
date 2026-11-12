@@ -1,0 +1,6376 @@
+{
+  "pedidos": [
+    {
+      "id_pedido": "PED-2026-0001",
+      "fecha": "2026-03-23",
+      "cliente": "Carlos Alvarez",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 6,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 9.45
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 2,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 9.5
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 59.4
+        }
+      ],
+      "total_pedido": 78.35
+    },
+    {
+      "id_pedido": "PED-2026-0002",
+      "fecha": "2026-10-02",
+      "cliente": "Luis Cruz",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 6,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 37.5
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 2,
+          "precio": 12.0,
+          "codigo_descuento": "P5",
+          "subtotal": 22.8
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 5,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 10.5
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 87.6
+    },
+    {
+      "id_pedido": "PED-2026-0003",
+      "fecha": "2026-07-06",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 2,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 19.8
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 3,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 4,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 6.3
+        }
+      ],
+      "total_pedido": 38.7
+    },
+    {
+      "id_pedido": "PED-2026-0004",
+      "fecha": "2026-10-13",
+      "cliente": "Gabriela Soto",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 1,
+          "precio": 1.75,
+          "codigo_descuento": "P3",
+          "subtotal": 1.7
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 23.4
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": "P10",
+          "subtotal": 8.1
+        }
+      ],
+      "total_pedido": 33.2
+    },
+    {
+      "id_pedido": "PED-2026-0005",
+      "fecha": "2026-07-22",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 5,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 23.75
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 14.7
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 7,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 31.5
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 3,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 29.7
+        }
+      ],
+      "total_pedido": 99.65
+    },
+    {
+      "id_pedido": "PED-2026-0006",
+      "fecha": "2026-02-26",
+      "cliente": "Maria Castillo",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        }
+      ],
+      "total_pedido": 56.7
+    },
+    {
+      "id_pedido": "PED-2026-0007",
+      "fecha": "2026-10-11",
+      "cliente": "Carmen Salazar",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 2,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        }
+      ],
+      "total_pedido": 8.4
+    },
+    {
+      "id_pedido": "PED-2026-0008",
+      "fecha": "2026-06-24",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 5,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 23.75
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 17.4
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 2,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        }
+      ],
+      "total_pedido": 72.15
+    },
+    {
+      "id_pedido": "PED-2026-0009",
+      "fecha": "2026-03-20",
+      "cliente": "Luis Mendoza",
+      "pais": "Nicaragua",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 1,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 12.0
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 8,
+          "precio": 3.9,
+          "codigo_descuento": "P10",
+          "subtotal": 28.08
+        }
+      ],
+      "total_pedido": 40.08
+    },
+    {
+      "id_pedido": "PED-2026-0010",
+      "fecha": "2026-05-04",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 8,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 50.0
+        }
+      ],
+      "total_pedido": 50.0
+    },
+    {
+      "id_pedido": "PED-2026-0011",
+      "fecha": "2026-03-07",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 14.7
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 4,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 48.0
+        }
+      ],
+      "total_pedido": 62.7
+    },
+    {
+      "id_pedido": "PED-2026-0012",
+      "fecha": "2026-07-11",
+      "cliente": "Mariana Castillo",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 6,
+          "precio": 6.25,
+          "codigo_descuento": "P5",
+          "subtotal": 35.62
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P3",
+          "subtotal": 38.41
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 4,
+          "precio": 1.75,
+          "codigo_descuento": "P3",
+          "subtotal": 6.79
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": "P5",
+          "subtotal": 25.65
+        }
+      ],
+      "total_pedido": 106.47
+    },
+    {
+      "id_pedido": "PED-2026-0013",
+      "fecha": "2026-04-20",
+      "cliente": "Gabriela Soto",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 29.7
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 23.4
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 1,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 2.5
+        }
+      ],
+      "total_pedido": 102.0
+    },
+    {
+      "id_pedido": "PED-2026-0014",
+      "fecha": "2026-06-23",
+      "cliente": "David Vargas",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 29.7
+        }
+      ],
+      "total_pedido": 29.7
+    },
+    {
+      "id_pedido": "PED-2026-0015",
+      "fecha": "2026-05-23",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 11.25
+        }
+      ],
+      "total_pedido": 11.25
+    },
+    {
+      "id_pedido": "PED-2026-0016",
+      "fecha": "2026-05-02",
+      "cliente": "Maria Castillo",
+      "pais": "Belice",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 17.4
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 7,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 51.97
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 8,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 61.2
+        }
+      ],
+      "total_pedido": 143.07
+    },
+    {
+      "id_pedido": "PED-2026-0017",
+      "fecha": "2026-10-05",
+      "cliente": "Valeria Rivas",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 8,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 68.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 3,
+          "precio": 4.5,
+          "codigo_descuento": "P3",
+          "subtotal": 13.09
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 3,
+          "precio": 1.95,
+          "codigo_descuento": "P3",
+          "subtotal": 5.67
+        }
+      ],
+      "total_pedido": 86.76
+    },
+    {
+      "id_pedido": "PED-2026-0018",
+      "fecha": "2026-10-19",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 2,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        }
+      ],
+      "total_pedido": 3.9
+    },
+    {
+      "id_pedido": "PED-2026-0019",
+      "fecha": "2026-05-14",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 3,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 29.7
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 5,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 10.5
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 2,
+          "precio": 2.5,
+          "codigo_descuento": "P3",
+          "subtotal": 4.85
+        }
+      ],
+      "total_pedido": 45.05
+    },
+    {
+      "id_pedido": "PED-2026-0020",
+      "fecha": "2026-09-17",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": "P25",
+          "subtotal": 20.25
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 31.25
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        }
+      ],
+      "total_pedido": 61.4
+    },
+    {
+      "id_pedido": "PED-2026-0021",
+      "fecha": "2026-03-10",
+      "cliente": "Alejandra Gomez",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": "P5",
+          "subtotal": 7.98
+        }
+      ],
+      "total_pedido": 7.98
+    },
+    {
+      "id_pedido": "PED-2026-0022",
+      "fecha": "2026-05-16",
+      "cliente": "Paula Jimenez",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": "P10",
+          "subtotal": 7.88
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 3,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 25.5
+        }
+      ],
+      "total_pedido": 42.38
+    },
+    {
+      "id_pedido": "PED-2026-0023",
+      "fecha": "2026-08-15",
+      "cliente": "Diego Guzman",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 3,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 36.0
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 51.0
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 18.75
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 1,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 3.78
+        }
+      ],
+      "total_pedido": 109.53
+    },
+    {
+      "id_pedido": "PED-2026-0024",
+      "fecha": "2026-05-08",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 3,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 4,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 48.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 3,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 7.5
+        }
+      ],
+      "total_pedido": 67.2
+    },
+    {
+      "id_pedido": "PED-2026-0025",
+      "fecha": "2026-06-20",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 5,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 18.91
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 8,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 16.8
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": "P5",
+          "subtotal": 56.43
+        }
+      ],
+      "total_pedido": 121.54
+    },
+    {
+      "id_pedido": "PED-2026-0026",
+      "fecha": "2026-04-09",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 8.75
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 7,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 43.75
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 23.4
+        }
+      ],
+      "total_pedido": 75.9
+    },
+    {
+      "id_pedido": "PED-2026-0027",
+      "fecha": "2026-05-14",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 7,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 53.55
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 7,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 43.75
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 2,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        }
+      ],
+      "total_pedido": 101.2
+    },
+    {
+      "id_pedido": "PED-2026-0028",
+      "fecha": "2026-08-12",
+      "cliente": "Andres Mendoza",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 2,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 6.8
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 15.0
+        }
+      ],
+      "total_pedido": 21.8
+    },
+    {
+      "id_pedido": "PED-2026-0029",
+      "fecha": "2026-06-03",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": "P25",
+          "subtotal": 7.65
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 3,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 7.5
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": "P5",
+          "subtotal": 1.99
+        }
+      ],
+      "total_pedido": 31.14
+    },
+    {
+      "id_pedido": "PED-2026-0030",
+      "fecha": "2026-11-07",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 3,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 13.5
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 5,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 21.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": "P5",
+          "subtotal": 56.43
+        }
+      ],
+      "total_pedido": 137.33
+    },
+    {
+      "id_pedido": "PED-2026-0031",
+      "fecha": "2026-04-12",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 79.2
+        }
+      ],
+      "total_pedido": 79.2
+    },
+    {
+      "id_pedido": "PED-2026-0032",
+      "fecha": "2026-10-22",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 1,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 5.8
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 2,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 5.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 29.7
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 4.75
+        }
+      ],
+      "total_pedido": 45.25
+    },
+    {
+      "id_pedido": "PED-2026-0033",
+      "fecha": "2026-08-26",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        }
+      ],
+      "total_pedido": 89.3
+    },
+    {
+      "id_pedido": "PED-2026-0034",
+      "fecha": "2026-05-22",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 2,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P10",
+          "subtotal": 35.64
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 2,
+          "precio": 2.1,
+          "codigo_descuento": "P5",
+          "subtotal": 3.99
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 7,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 40.6
+        }
+      ],
+      "total_pedido": 88.63
+    },
+    {
+      "id_pedido": "PED-2026-0035",
+      "fecha": "2026-07-28",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 7,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 17.5
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 1,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 8.5
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 7,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 69.3
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": "P25",
+          "subtotal": 20.25
+        }
+      ],
+      "total_pedido": 115.55
+    },
+    {
+      "id_pedido": "PED-2026-0036",
+      "fecha": "2026-10-07",
+      "cliente": "Hector Vargas",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 5,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 29.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        }
+      ],
+      "total_pedido": 38.9
+    },
+    {
+      "id_pedido": "PED-2026-0037",
+      "fecha": "2026-08-28",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 7,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 31.5
+        }
+      ],
+      "total_pedido": 31.5
+    },
+    {
+      "id_pedido": "PED-2026-0038",
+      "fecha": "2026-08-08",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": "P10",
+          "subtotal": 25.65
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 51.0
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 11.03
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        }
+      ],
+      "total_pedido": 100.18
+    },
+    {
+      "id_pedido": "PED-2026-0039",
+      "fecha": "2026-10-04",
+      "cliente": "Carlos Navarro",
+      "pais": "Nicaragua",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": "P3",
+          "subtotal": 16.3
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": "P25",
+          "subtotal": 14.06
+        }
+      ],
+      "total_pedido": 40.26
+    },
+    {
+      "id_pedido": "PED-2026-0040",
+      "fecha": "2026-04-22",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 7.8
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 10.2
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 2,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 9.5
+        }
+      ],
+      "total_pedido": 27.5
+    },
+    {
+      "id_pedido": "PED-2026-0041",
+      "fecha": "2026-07-12",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 4,
+          "precio": 6.25,
+          "codigo_descuento": "P10",
+          "subtotal": 22.5
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 2,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        }
+      ],
+      "total_pedido": 26.4
+    },
+    {
+      "id_pedido": "PED-2026-0042",
+      "fecha": "2026-08-08",
+      "cliente": "Luis Cruz",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 6,
+          "precio": 12.0,
+          "codigo_descuento": "P25",
+          "subtotal": 54.0
+        }
+      ],
+      "total_pedido": 54.0
+    },
+    {
+      "id_pedido": "PED-2026-0043",
+      "fecha": "2026-07-05",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 8,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 38.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": "P5",
+          "subtotal": 11.88
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 2,
+          "precio": 1.75,
+          "codigo_descuento": "P25",
+          "subtotal": 2.62
+        }
+      ],
+      "total_pedido": 66.5
+    },
+    {
+      "id_pedido": "PED-2026-0044",
+      "fecha": "2026-10-19",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 10.2
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 51.0
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 6,
+          "precio": 5.8,
+          "codigo_descuento": "P10",
+          "subtotal": 31.32
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 1,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 4.5
+        }
+      ],
+      "total_pedido": 97.02
+    },
+    {
+      "id_pedido": "PED-2026-0045",
+      "fecha": "2026-07-28",
+      "cliente": "Andres Mendoza",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 8,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 22.4
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 1,
+          "precio": 5.8,
+          "codigo_descuento": "P5",
+          "subtotal": 5.51
+        }
+      ],
+      "total_pedido": 27.91
+    },
+    {
+      "id_pedido": "PED-2026-0046",
+      "fecha": "2026-06-06",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 6,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 34.8
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 6,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 72.0
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 8,
+          "precio": 1.75,
+          "codigo_descuento": "P10",
+          "subtotal": 12.6
+        }
+      ],
+      "total_pedido": 119.4
+    },
+    {
+      "id_pedido": "PED-2026-0047",
+      "fecha": "2026-04-09",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": "P10",
+          "subtotal": 71.28
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        }
+      ],
+      "total_pedido": 80.28
+    },
+    {
+      "id_pedido": "PED-2026-0048",
+      "fecha": "2026-04-02",
+      "cliente": "Manuel Flores",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 2.1
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 3,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 25.5
+        }
+      ],
+      "total_pedido": 27.6
+    },
+    {
+      "id_pedido": "PED-2026-0049",
+      "fecha": "2026-01-07",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 1,
+          "precio": 5.8,
+          "codigo_descuento": "P25",
+          "subtotal": 4.35
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 7,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 23.8
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": "P10",
+          "subtotal": 4.28
+        }
+      ],
+      "total_pedido": 41.43
+    },
+    {
+      "id_pedido": "PED-2026-0050",
+      "fecha": "2026-10-13",
+      "cliente": "Maria Castillo",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 8,
+          "precio": 12.0,
+          "codigo_descuento": "P25",
+          "subtotal": 72.0
+        }
+      ],
+      "total_pedido": 99.3
+    },
+    {
+      "id_pedido": "PED-2026-0051",
+      "fecha": "2026-01-31",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        }
+      ],
+      "total_pedido": 15.6
+    },
+    {
+      "id_pedido": "PED-2026-0052",
+      "fecha": "2026-03-22",
+      "cliente": "Diego Guzman",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 4.75
+        }
+      ],
+      "total_pedido": 4.75
+    },
+    {
+      "id_pedido": "PED-2026-0053",
+      "fecha": "2026-04-29",
+      "cliente": "Carlos Navarro",
+      "pais": "Nicaragua",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 2,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 5.6
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 8.75
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 23.2
+        }
+      ],
+      "total_pedido": 37.55
+    },
+    {
+      "id_pedido": "PED-2026-0054",
+      "fecha": "2026-03-18",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 18.75
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 5,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 42.5
+        }
+      ],
+      "total_pedido": 61.25
+    },
+    {
+      "id_pedido": "PED-2026-0055",
+      "fecha": "2026-07-26",
+      "cliente": "Carmen Salazar",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 7,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 40.6
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": "P5",
+          "subtotal": 29.69
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 1,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 1.95
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 5,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 42.5
+        }
+      ],
+      "total_pedido": 114.74
+    },
+    {
+      "id_pedido": "PED-2026-0056",
+      "fecha": "2026-08-15",
+      "cliente": "Camila Morales",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": "P10",
+          "subtotal": 18.0
+        }
+      ],
+      "total_pedido": 33.6
+    },
+    {
+      "id_pedido": "PED-2026-0057",
+      "fecha": "2026-03-24",
+      "cliente": "Ricardo Alvarez",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 2.1
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 6,
+          "precio": 4.2,
+          "codigo_descuento": "P3",
+          "subtotal": 24.44
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 7,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 17.5
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 1,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 12.0
+        }
+      ],
+      "total_pedido": 56.04
+    },
+    {
+      "id_pedido": "PED-2026-0058",
+      "fecha": "2026-01-28",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": "P5",
+          "subtotal": 14.82
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 5,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 29.0
+        }
+      ],
+      "total_pedido": 59.42
+    },
+    {
+      "id_pedido": "PED-2026-0059",
+      "fecha": "2026-11-08",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 2.1
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 2,
+          "precio": 12.0,
+          "codigo_descuento": "P3",
+          "subtotal": 23.28
+        }
+      ],
+      "total_pedido": 25.38
+    },
+    {
+      "id_pedido": "PED-2026-0060",
+      "fecha": "2026-03-20",
+      "cliente": "Carmen Salazar",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 7,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 84.0
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 8,
+          "precio": 2.8,
+          "codigo_descuento": "P5",
+          "subtotal": 21.28
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": "P5",
+          "subtotal": 13.96
+        }
+      ],
+      "total_pedido": 119.24
+    },
+    {
+      "id_pedido": "PED-2026-0061",
+      "fecha": "2026-08-01",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 8.75
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 8,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 68.0
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 8,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 93.55
+    },
+    {
+      "id_pedido": "PED-2026-0062",
+      "fecha": "2026-10-06",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 4,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 7.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 39.6
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 7,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 14.7
+        }
+      ],
+      "total_pedido": 61.3
+    },
+    {
+      "id_pedido": "PED-2026-0063",
+      "fecha": "2026-03-19",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 28.5
+        }
+      ],
+      "total_pedido": 28.5
+    },
+    {
+      "id_pedido": "PED-2026-0064",
+      "fecha": "2026-08-22",
+      "cliente": "Hugo Herrera",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 3,
+          "precio": 2.5,
+          "codigo_descuento": "P10",
+          "subtotal": 6.75
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 6,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 10.5
+        }
+      ],
+      "total_pedido": 17.25
+    },
+    {
+      "id_pedido": "PED-2026-0065",
+      "fecha": "2026-06-18",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 1,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 3.4
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 11.6
+        }
+      ],
+      "total_pedido": 45.8
+    },
+    {
+      "id_pedido": "PED-2026-0066",
+      "fecha": "2026-02-21",
+      "cliente": "David Vargas",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 27.0
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 5,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 42.5
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 7,
+          "precio": 1.75,
+          "codigo_descuento": "P25",
+          "subtotal": 9.19
+        }
+      ],
+      "total_pedido": 78.69
+    },
+    {
+      "id_pedido": "PED-2026-0067",
+      "fecha": "2026-02-10",
+      "cliente": "Camila Morales",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 3,
+          "precio": 1.95,
+          "codigo_descuento": "P10",
+          "subtotal": 5.26
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 8,
+          "precio": 4.2,
+          "codigo_descuento": "P3",
+          "subtotal": 32.59
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 79.2
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": "P10",
+          "subtotal": 15.66
+        }
+      ],
+      "total_pedido": 132.71
+    },
+    {
+      "id_pedido": "PED-2026-0068",
+      "fecha": "2026-08-06",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 8,
+          "precio": 1.75,
+          "codigo_descuento": "P25",
+          "subtotal": 10.5
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 6,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 5,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 37.12
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": "P3",
+          "subtotal": 12.12
+        }
+      ],
+      "total_pedido": 72.34
+    },
+    {
+      "id_pedido": "PED-2026-0069",
+      "fecha": "2026-05-27",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": "P5",
+          "subtotal": 11.11
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 5,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 19.5
+        }
+      ],
+      "total_pedido": 30.61
+    },
+    {
+      "id_pedido": "PED-2026-0070",
+      "fecha": "2026-01-21",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 3,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 22.95
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": "P10",
+          "subtotal": 9.18
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        }
+      ],
+      "total_pedido": 57.83
+    },
+    {
+      "id_pedido": "PED-2026-0071",
+      "fecha": "2026-06-01",
+      "cliente": "Diego Guzman",
+      "pais": "Nicaragua",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": "P5",
+          "subtotal": 7.41
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 7,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 43.75
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 6,
+          "precio": 5.8,
+          "codigo_descuento": "P25",
+          "subtotal": 26.1
+        }
+      ],
+      "total_pedido": 77.26
+    },
+    {
+      "id_pedido": "PED-2026-0072",
+      "fecha": "2026-03-05",
+      "cliente": "Carlos Alvarez",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": "P5",
+          "subtotal": 11.11
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": "P10",
+          "subtotal": 18.0
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 45.91
+    },
+    {
+      "id_pedido": "PED-2026-0073",
+      "fecha": "2026-07-29",
+      "cliente": "Carmen Salazar",
+      "pais": "Honduras",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 5,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 42.5
+        }
+      ],
+      "total_pedido": 42.5
+    },
+    {
+      "id_pedido": "PED-2026-0074",
+      "fecha": "2026-10-03",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 7,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 23.8
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 3,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 2,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 5.6
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        }
+      ],
+      "total_pedido": 69.3
+    },
+    {
+      "id_pedido": "PED-2026-0075",
+      "fecha": "2026-07-09",
+      "cliente": "Gabriela Soto",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 59.4
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 6,
+          "precio": 1.75,
+          "codigo_descuento": "P10",
+          "subtotal": 9.45
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 4,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 13.6
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 8,
+          "precio": 6.25,
+          "codigo_descuento": "P5",
+          "subtotal": 47.5
+        }
+      ],
+      "total_pedido": 129.95
+    },
+    {
+      "id_pedido": "PED-2026-0076",
+      "fecha": "2026-06-20",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": "P5",
+          "subtotal": 14.82
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 4,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 7.8
+        }
+      ],
+      "total_pedido": 22.62
+    },
+    {
+      "id_pedido": "PED-2026-0077",
+      "fecha": "2026-03-17",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 3,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 6.3
+        }
+      ],
+      "total_pedido": 6.3
+    },
+    {
+      "id_pedido": "PED-2026-0078",
+      "fecha": "2026-03-31",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 4.75
+        }
+      ],
+      "total_pedido": 4.75
+    },
+    {
+      "id_pedido": "PED-2026-0079",
+      "fecha": "2026-01-09",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 7,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 33.25
+        }
+      ],
+      "total_pedido": 33.25
+    },
+    {
+      "id_pedido": "PED-2026-0080",
+      "fecha": "2026-07-05",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 23.2
+        }
+      ],
+      "total_pedido": 23.2
+    },
+    {
+      "id_pedido": "PED-2026-0081",
+      "fecha": "2026-09-24",
+      "cliente": "Luis Cruz",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 8,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 68.0
+        }
+      ],
+      "total_pedido": 68.0
+    },
+    {
+      "id_pedido": "PED-2026-0082",
+      "fecha": "2026-09-09",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": "P10",
+          "subtotal": 16.88
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 27.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 5,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": "P3",
+          "subtotal": 13.24
+        }
+      ],
+      "total_pedido": 74.12
+    },
+    {
+      "id_pedido": "PED-2026-0083",
+      "fecha": "2026-04-27",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 15.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 5,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 22.5
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 8,
+          "precio": 6.25,
+          "codigo_descuento": "P3",
+          "subtotal": 48.5
+        }
+      ],
+      "total_pedido": 94.4
+    },
+    {
+      "id_pedido": "PED-2026-0084",
+      "fecha": "2026-07-10",
+      "cliente": "Maria Castillo",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        }
+      ],
+      "total_pedido": 11.7
+    },
+    {
+      "id_pedido": "PED-2026-0085",
+      "fecha": "2026-08-05",
+      "cliente": "Hector Vargas",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 5,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 10.5
+        }
+      ],
+      "total_pedido": 10.5
+    },
+    {
+      "id_pedido": "PED-2026-0086",
+      "fecha": "2026-09-04",
+      "cliente": "Luis Mendoza",
+      "pais": "Nicaragua",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 6,
+          "precio": 3.4,
+          "codigo_descuento": "P10",
+          "subtotal": 18.36
+        }
+      ],
+      "total_pedido": 18.36
+    },
+    {
+      "id_pedido": "PED-2026-0087",
+      "fecha": "2026-10-15",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 5,
+          "precio": 1.95,
+          "codigo_descuento": "P10",
+          "subtotal": 8.78
+        }
+      ],
+      "total_pedido": 8.78
+    },
+    {
+      "id_pedido": "PED-2026-0088",
+      "fecha": "2026-01-04",
+      "cliente": "Alejandra Gomez",
+      "pais": "Honduras",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": "P3",
+          "subtotal": 13.24
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 2,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        }
+      ],
+      "total_pedido": 21.64
+    },
+    {
+      "id_pedido": "PED-2026-0089",
+      "fecha": "2026-08-21",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 2,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 4.2
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": "P3",
+          "subtotal": 8.15
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 2,
+          "precio": 3.4,
+          "codigo_descuento": "P25",
+          "subtotal": 5.1
+        }
+      ],
+      "total_pedido": 17.45
+    },
+    {
+      "id_pedido": "PED-2026-0090",
+      "fecha": "2026-08-01",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 7,
+          "precio": 3.4,
+          "codigo_descuento": "P25",
+          "subtotal": 17.85
+        }
+      ],
+      "total_pedido": 17.85
+    },
+    {
+      "id_pedido": "PED-2026-0091",
+      "fecha": "2026-01-24",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 4,
+          "precio": 8.5,
+          "codigo_descuento": "P5",
+          "subtotal": 32.3
+        }
+      ],
+      "total_pedido": 32.3
+    },
+    {
+      "id_pedido": "PED-2026-0092",
+      "fecha": "2026-05-29",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 7,
+          "precio": 5.8,
+          "codigo_descuento": "P25",
+          "subtotal": 30.45
+        }
+      ],
+      "total_pedido": 30.45
+    },
+    {
+      "id_pedido": "PED-2026-0093",
+      "fecha": "2026-09-14",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 1,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 6.25
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 20.0
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 6,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 43.05
+    },
+    {
+      "id_pedido": "PED-2026-0094",
+      "fecha": "2026-08-02",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 8,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 68.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 6,
+          "precio": 3.4,
+          "codigo_descuento": "P3",
+          "subtotal": 19.79
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 4,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 19.0
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 13.65
+        }
+      ],
+      "total_pedido": 120.44
+    },
+    {
+      "id_pedido": "PED-2026-0095",
+      "fecha": "2026-06-23",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 2,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 4,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 48.0
+        }
+      ],
+      "total_pedido": 60.5
+    },
+    {
+      "id_pedido": "PED-2026-0096",
+      "fecha": "2026-03-17",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 3,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 6.3
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 2,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 14.85
+        }
+      ],
+      "total_pedido": 21.15
+    },
+    {
+      "id_pedido": "PED-2026-0097",
+      "fecha": "2026-10-24",
+      "cliente": "Carmen Salazar",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 3,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 5.25
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 8,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 33.6
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 5,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        }
+      ],
+      "total_pedido": 55.85
+    },
+    {
+      "id_pedido": "PED-2026-0098",
+      "fecha": "2026-02-07",
+      "cliente": "Sofia Contreras",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 2,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 7,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 23.8
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 2.1
+        }
+      ],
+      "total_pedido": 51.9
+    },
+    {
+      "id_pedido": "PED-2026-0099",
+      "fecha": "2026-09-01",
+      "cliente": "Andres Mendoza",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 11.6
+        }
+      ],
+      "total_pedido": 11.6
+    },
+    {
+      "id_pedido": "PED-2026-0100",
+      "fecha": "2026-09-16",
+      "cliente": "Paula Jimenez",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 79.2
+        }
+      ],
+      "total_pedido": 79.2
+    },
+    {
+      "id_pedido": "PED-2026-0101",
+      "fecha": "2026-03-23",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 15.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 1,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 4.5
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 22.7
+        }
+      ],
+      "total_pedido": 42.2
+    },
+    {
+      "id_pedido": "PED-2026-0102",
+      "fecha": "2026-11-05",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 18.75
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 5,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 9.75
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": "P3",
+          "subtotal": 28.52
+        }
+      ],
+      "total_pedido": 57.02
+    },
+    {
+      "id_pedido": "PED-2026-0103",
+      "fecha": "2026-06-18",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        }
+      ],
+      "total_pedido": 29.4
+    },
+    {
+      "id_pedido": "PED-2026-0104",
+      "fecha": "2026-04-03",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 16.88
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        }
+      ],
+      "total_pedido": 42.38
+    },
+    {
+      "id_pedido": "PED-2026-0105",
+      "fecha": "2026-03-20",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 1,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 2.8
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 23.2
+        }
+      ],
+      "total_pedido": 26.0
+    },
+    {
+      "id_pedido": "PED-2026-0106",
+      "fecha": "2026-08-18",
+      "cliente": "Manuel Flores",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 8,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        }
+      ],
+      "total_pedido": 32.4
+    },
+    {
+      "id_pedido": "PED-2026-0107",
+      "fecha": "2026-05-25",
+      "cliente": "Hugo Herrera",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 3,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 14.25
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 1,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 1.75
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 59.4
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 2,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        }
+      ],
+      "total_pedido": 79.3
+    },
+    {
+      "id_pedido": "PED-2026-0108",
+      "fecha": "2026-05-26",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 3,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 6.3
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 11.6
+        }
+      ],
+      "total_pedido": 17.9
+    },
+    {
+      "id_pedido": "PED-2026-0109",
+      "fecha": "2026-06-28",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 4,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 34.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 2,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 5.0
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 1,
+          "precio": 12.0,
+          "codigo_descuento": "P3",
+          "subtotal": 11.64
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 6,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 20.4
+        }
+      ],
+      "total_pedido": 71.04
+    },
+    {
+      "id_pedido": "PED-2026-0110",
+      "fecha": "2026-08-30",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 8,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 31.2
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 1,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 2.8
+        }
+      ],
+      "total_pedido": 34.0
+    },
+    {
+      "id_pedido": "PED-2026-0111",
+      "fecha": "2026-03-18",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": "P5",
+          "subtotal": 29.69
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 8,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        }
+      ],
+      "total_pedido": 79.49
+    },
+    {
+      "id_pedido": "PED-2026-0112",
+      "fecha": "2026-05-30",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 3,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 29.7
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 2,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": "P3",
+          "subtotal": 14.55
+        }
+      ],
+      "total_pedido": 48.15
+    },
+    {
+      "id_pedido": "PED-2026-0113",
+      "fecha": "2026-01-23",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 6,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 6,
+          "precio": 2.8,
+          "codigo_descuento": "P3",
+          "subtotal": 16.3
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 45.9
+        }
+      ],
+      "total_pedido": 74.8
+    },
+    {
+      "id_pedido": "PED-2026-0114",
+      "fecha": "2026-03-31",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 6.3
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 1,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 5.63
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 28.5
+        }
+      ],
+      "total_pedido": 57.23
+    },
+    {
+      "id_pedido": "PED-2026-0115",
+      "fecha": "2026-10-06",
+      "cliente": "Luis Mendoza",
+      "pais": "Nicaragua",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 4,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 15.13
+        }
+      ],
+      "total_pedido": 15.13
+    },
+    {
+      "id_pedido": "PED-2026-0116",
+      "fecha": "2026-07-08",
+      "cliente": "Paula Jimenez",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 7,
+          "precio": 3.4,
+          "codigo_descuento": "P5",
+          "subtotal": 22.61
+        }
+      ],
+      "total_pedido": 89.91
+    },
+    {
+      "id_pedido": "PED-2026-0117",
+      "fecha": "2026-02-22",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 11.03
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 6,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 34.8
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        }
+      ],
+      "total_pedido": 57.53
+    },
+    {
+      "id_pedido": "PED-2026-0118",
+      "fecha": "2026-01-30",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 10.2
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 3,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 36.0
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 8,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 30.26
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 4,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 11.2
+        }
+      ],
+      "total_pedido": 87.66
+    },
+    {
+      "id_pedido": "PED-2026-0119",
+      "fecha": "2026-10-18",
+      "cliente": "Natalia Contreras",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 6,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 25.2
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 11.6
+        }
+      ],
+      "total_pedido": 36.8
+    },
+    {
+      "id_pedido": "PED-2026-0120",
+      "fecha": "2026-06-10",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 18.75
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 7,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 59.5
+        }
+      ],
+      "total_pedido": 78.25
+    },
+    {
+      "id_pedido": "PED-2026-0121",
+      "fecha": "2026-05-14",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": "P5",
+          "subtotal": 14.82
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 2,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 4.2
+        }
+      ],
+      "total_pedido": 19.02
+    },
+    {
+      "id_pedido": "PED-2026-0122",
+      "fecha": "2026-06-13",
+      "cliente": "Hugo Herrera",
+      "pais": "Belice",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 5,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 60.0
+        }
+      ],
+      "total_pedido": 60.0
+    },
+    {
+      "id_pedido": "PED-2026-0123",
+      "fecha": "2026-03-31",
+      "cliente": "Mateo Navarro",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 3,
+          "precio": 6.25,
+          "codigo_descuento": "P25",
+          "subtotal": 14.06
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 1,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 9.9
+        }
+      ],
+      "total_pedido": 23.96
+    },
+    {
+      "id_pedido": "PED-2026-0124",
+      "fecha": "2026-10-10",
+      "cliente": "Natalia Contreras",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 31.25
+        }
+      ],
+      "total_pedido": 31.25
+    },
+    {
+      "id_pedido": "PED-2026-0125",
+      "fecha": "2026-07-29",
+      "cliente": "Carlos Navarro",
+      "pais": "Nicaragua",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 28.5
+        }
+      ],
+      "total_pedido": 28.5
+    },
+    {
+      "id_pedido": "PED-2026-0126",
+      "fecha": "2026-09-22",
+      "cliente": "Hugo Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 4.75
+        }
+      ],
+      "total_pedido": 32.05
+    },
+    {
+      "id_pedido": "PED-2026-0127",
+      "fecha": "2026-03-26",
+      "cliente": "Sofia Rivas",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 5,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 5,
+          "precio": 12.0,
+          "codigo_descuento": "P10",
+          "subtotal": 54.0
+        }
+      ],
+      "total_pedido": 71.0
+    },
+    {
+      "id_pedido": "PED-2026-0128",
+      "fecha": "2026-11-11",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 3,
+          "precio": 1.95,
+          "codigo_descuento": "P10",
+          "subtotal": 5.26
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 1,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 4.5
+        }
+      ],
+      "total_pedido": 9.76
+    },
+    {
+      "id_pedido": "PED-2026-0129",
+      "fecha": "2026-10-23",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 1,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 1.95
+        }
+      ],
+      "total_pedido": 29.25
+    },
+    {
+      "id_pedido": "PED-2026-0130",
+      "fecha": "2026-06-04",
+      "cliente": "Jorge Reyes",
+      "pais": "Honduras",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 1,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 1.58
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 6,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 37.5
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 6,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 102.28
+    },
+    {
+      "id_pedido": "PED-2026-0131",
+      "fecha": "2026-06-26",
+      "cliente": "Ricardo Alvarez",
+      "pais": "El Salvador",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": "P25",
+          "subtotal": 5.85
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 2,
+          "precio": 3.4,
+          "codigo_descuento": "P5",
+          "subtotal": 6.46
+        }
+      ],
+      "total_pedido": 12.31
+    },
+    {
+      "id_pedido": "PED-2026-0132",
+      "fecha": "2026-05-29",
+      "cliente": "Lucia Salazar",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": "P5",
+          "subtotal": 56.43
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 8,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 8,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 38.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 5,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 17.0
+        }
+      ],
+      "total_pedido": 125.43
+    },
+    {
+      "id_pedido": "PED-2026-0133",
+      "fecha": "2026-08-23",
+      "cliente": "Maria Castillo",
+      "pais": "Costa Rica",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 1,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 1.46
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 8,
+          "precio": 3.4,
+          "codigo_descuento": "P3",
+          "subtotal": 26.38
+        }
+      ],
+      "total_pedido": 27.84
+    },
+    {
+      "id_pedido": "PED-2026-0134",
+      "fecha": "2026-05-16",
+      "cliente": "David Vargas",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 4,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 13.6
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 5,
+          "precio": 8.5,
+          "codigo_descuento": "P25",
+          "subtotal": 31.88
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 2,
+          "precio": 1.75,
+          "codigo_descuento": "P3",
+          "subtotal": 3.4
+        }
+      ],
+      "total_pedido": 61.38
+    },
+    {
+      "id_pedido": "PED-2026-0135",
+      "fecha": "2026-06-23",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 1,
+          "precio": 4.75,
+          "codigo_descuento": "P10",
+          "subtotal": 4.28
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 79.2
+        }
+      ],
+      "total_pedido": 110.78
+    },
+    {
+      "id_pedido": "PED-2026-0136",
+      "fecha": "2026-09-21",
+      "cliente": "Lucia Salazar",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 5,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 23.75
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 20.0
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 5,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 9.75
+        }
+      ],
+      "total_pedido": 53.5
+    },
+    {
+      "id_pedido": "PED-2026-0137",
+      "fecha": "2026-02-26",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 1,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 3.9
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 4,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 7.0
+        }
+      ],
+      "total_pedido": 24.9
+    },
+    {
+      "id_pedido": "PED-2026-0138",
+      "fecha": "2026-07-14",
+      "cliente": "Carlos Navarro",
+      "pais": "Nicaragua",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 2,
+          "precio": 8.5,
+          "codigo_descuento": "P25",
+          "subtotal": 12.75
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 6,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        }
+      ],
+      "total_pedido": 24.45
+    },
+    {
+      "id_pedido": "PED-2026-0139",
+      "fecha": "2026-07-30",
+      "cliente": "Hector Vargas",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 1,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 1.75
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 4,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 18.0
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 8,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 22.4
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 23.4
+        }
+      ],
+      "total_pedido": 65.55
+    },
+    {
+      "id_pedido": "PED-2026-0140",
+      "fecha": "2026-10-07",
+      "cliente": "Carmen Salazar",
+      "pais": "Honduras",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 4,
+          "precio": 1.95,
+          "codigo_descuento": "P10",
+          "subtotal": 7.02
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 23.2
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 5,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 49.5
+        }
+      ],
+      "total_pedido": 79.72
+    },
+    {
+      "id_pedido": "PED-2026-0141",
+      "fecha": "2026-09-08",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 5,
+          "precio": 12.0,
+          "codigo_descuento": "P25",
+          "subtotal": 45.0
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": "P10",
+          "subtotal": 7.56
+        }
+      ],
+      "total_pedido": 79.86
+    },
+    {
+      "id_pedido": "PED-2026-0142",
+      "fecha": "2026-08-15",
+      "cliente": "Maria Castillo",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 5,
+          "precio": 9.9,
+          "codigo_descuento": "P5",
+          "subtotal": 47.02
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 4,
+          "precio": 4.5,
+          "codigo_descuento": "P5",
+          "subtotal": 17.1
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 4,
+          "precio": 12.0,
+          "codigo_descuento": "P25",
+          "subtotal": 36.0
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 6,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 12.6
+        }
+      ],
+      "total_pedido": 112.72
+    },
+    {
+      "id_pedido": "PED-2026-0143",
+      "fecha": "2026-03-12",
+      "cliente": "David Vargas",
+      "pais": "El Salvador",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 20.0
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 36.8
+    },
+    {
+      "id_pedido": "PED-2026-0144",
+      "fecha": "2026-01-31",
+      "cliente": "Manuel Flores",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        }
+      ],
+      "total_pedido": 16.8
+    },
+    {
+      "id_pedido": "PED-2026-0145",
+      "fecha": "2026-08-02",
+      "cliente": "Luis Cruz",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 7,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 31.5
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 3,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 25.5
+        }
+      ],
+      "total_pedido": 57.0
+    },
+    {
+      "id_pedido": "PED-2026-0146",
+      "fecha": "2026-01-05",
+      "cliente": "Manuel Flores",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 6,
+          "precio": 4.5,
+          "codigo_descuento": "P25",
+          "subtotal": 20.25
+        }
+      ],
+      "total_pedido": 20.25
+    },
+    {
+      "id_pedido": "PED-2026-0147",
+      "fecha": "2026-08-28",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 10.2
+        }
+      ],
+      "total_pedido": 10.2
+    },
+    {
+      "id_pedido": "PED-2026-0148",
+      "fecha": "2026-01-08",
+      "cliente": "Diego Guzman",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 4,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 5.85
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 7.8
+        }
+      ],
+      "total_pedido": 43.05
+    },
+    {
+      "id_pedido": "PED-2026-0149",
+      "fecha": "2026-03-13",
+      "cliente": "David Vargas",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 7,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 53.55
+        },
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 6,
+          "precio": 2.1,
+          "codigo_descuento": "P3",
+          "subtotal": 12.22
+        }
+      ],
+      "total_pedido": 65.77
+    },
+    {
+      "id_pedido": "PED-2026-0150",
+      "fecha": "2026-05-01",
+      "cliente": "Diego Guzman",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 5,
+          "precio": 5.8,
+          "codigo_descuento": "P10",
+          "subtotal": 26.1
+        }
+      ],
+      "total_pedido": 26.1
+    },
+    {
+      "id_pedido": "PED-2026-0151",
+      "fecha": "2026-06-01",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": "P10",
+          "subtotal": 71.28
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 7,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 33.25
+        }
+      ],
+      "total_pedido": 104.53
+    },
+    {
+      "id_pedido": "PED-2026-0152",
+      "fecha": "2026-04-22",
+      "cliente": "Carlos Navarro",
+      "pais": "Nicaragua",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 8,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 96.0
+        }
+      ],
+      "total_pedido": 96.0
+    },
+    {
+      "id_pedido": "PED-2026-0153",
+      "fecha": "2026-10-16",
+      "cliente": "Natalia Contreras",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 3,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 4.39
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 2,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 24.0
+        }
+      ],
+      "total_pedido": 28.39
+    },
+    {
+      "id_pedido": "PED-2026-0154",
+      "fecha": "2026-09-19",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 17.4
+        }
+      ],
+      "total_pedido": 17.4
+    },
+    {
+      "id_pedido": "PED-2026-0155",
+      "fecha": "2026-10-14",
+      "cliente": "Carmen Salazar",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 4,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 34.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 1,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 2.5
+        }
+      ],
+      "total_pedido": 50.5
+    },
+    {
+      "id_pedido": "PED-2026-0156",
+      "fecha": "2026-01-31",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 8,
+          "precio": 4.5,
+          "codigo_descuento": "P25",
+          "subtotal": 27.0
+        }
+      ],
+      "total_pedido": 27.0
+    },
+    {
+      "id_pedido": "PED-2026-0157",
+      "fecha": "2026-08-04",
+      "cliente": "Camila Morales",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 2,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 11.6
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 3,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 5.25
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": "P25",
+          "subtotal": 11.25
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 3,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        }
+      ],
+      "total_pedido": 39.8
+    },
+    {
+      "id_pedido": "PED-2026-0158",
+      "fecha": "2026-01-12",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 4,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 11.2
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 3,
+          "precio": 12.0,
+          "codigo_descuento": "P3",
+          "subtotal": 34.92
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 1,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 2.5
+        }
+      ],
+      "total_pedido": 78.02
+    },
+    {
+      "id_pedido": "PED-2026-0159",
+      "fecha": "2026-01-09",
+      "cliente": "Hector Vargas",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 1,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 6.25
+        }
+      ],
+      "total_pedido": 6.25
+    },
+    {
+      "id_pedido": "PED-2026-0160",
+      "fecha": "2026-01-23",
+      "cliente": "Sofia Contreras",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 1,
+          "precio": 12.0,
+          "codigo_descuento": "P10",
+          "subtotal": 10.8
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 39.6
+        }
+      ],
+      "total_pedido": 50.4
+    },
+    {
+      "id_pedido": "PED-2026-0161",
+      "fecha": "2026-06-14",
+      "cliente": "Ricardo Alvarez",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 4,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 16.8
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 5,
+          "precio": 12.0,
+          "codigo_descuento": "P5",
+          "subtotal": 57.0
+        }
+      ],
+      "total_pedido": 73.8
+    },
+    {
+      "id_pedido": "PED-2026-0162",
+      "fecha": "2026-01-25",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 27.3
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 5,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 60.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 8,
+          "precio": 3.4,
+          "codigo_descuento": "P5",
+          "subtotal": 25.84
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        }
+      ],
+      "total_pedido": 127.14
+    },
+    {
+      "id_pedido": "PED-2026-0163",
+      "fecha": "2026-01-30",
+      "cliente": "Lucia Salazar",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 4,
+          "precio": 12.0,
+          "codigo_descuento": "P10",
+          "subtotal": 43.2
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": "P5",
+          "subtotal": 27.07
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 1,
+          "precio": 2.5,
+          "codigo_descuento": "P3",
+          "subtotal": 2.42
+        }
+      ],
+      "total_pedido": 81.69
+    },
+    {
+      "id_pedido": "PED-2026-0164",
+      "fecha": "2026-10-28",
+      "cliente": "Jorge Delgado",
+      "pais": "Honduras",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 6,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 33.76
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 39.6
+        }
+      ],
+      "total_pedido": 73.36
+    },
+    {
+      "id_pedido": "PED-2026-0165",
+      "fecha": "2026-09-03",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 15.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 7,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 69.3
+        }
+      ],
+      "total_pedido": 84.3
+    },
+    {
+      "id_pedido": "PED-2026-0166",
+      "fecha": "2026-07-04",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 6,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 37.5
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 22.7
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 4,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 11.2
+        }
+      ],
+      "total_pedido": 117.8
+    },
+    {
+      "id_pedido": "PED-2026-0167",
+      "fecha": "2026-10-27",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 4,
+          "precio": 2.1,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 4,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 19.0
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 44.55
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 8,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 27.2
+        }
+      ],
+      "total_pedido": 99.15
+    },
+    {
+      "id_pedido": "PED-2026-0168",
+      "fecha": "2026-10-07",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 1,
+          "precio": 12.0,
+          "codigo_descuento": null,
+          "subtotal": 12.0
+        }
+      ],
+      "total_pedido": 12.0
+    },
+    {
+      "id_pedido": "PED-2026-0169",
+      "fecha": "2026-01-25",
+      "cliente": "Jorge Delgado",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 2,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 9.5
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 1,
+          "precio": 1.75,
+          "codigo_descuento": "P25",
+          "subtotal": 1.31
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 6,
+          "precio": 4.2,
+          "codigo_descuento": "P25",
+          "subtotal": 18.9
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 8,
+          "precio": 9.9,
+          "codigo_descuento": "P25",
+          "subtotal": 59.4
+        }
+      ],
+      "total_pedido": 89.11
+    },
+    {
+      "id_pedido": "PED-2026-0170",
+      "fecha": "2026-05-21",
+      "cliente": "Carlos Alvarez",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 7,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 59.5
+        },
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 3,
+          "precio": 12.0,
+          "codigo_descuento": "P3",
+          "subtotal": 34.92
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": "P10",
+          "subtotal": 7.56
+        }
+      ],
+      "total_pedido": 101.98
+    },
+    {
+      "id_pedido": "PED-2026-0171",
+      "fecha": "2026-07-23",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 22.5
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 1,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 1.46
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 7,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 69.3
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 1,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 2.8
+        }
+      ],
+      "total_pedido": 96.06
+    },
+    {
+      "id_pedido": "PED-2026-0172",
+      "fecha": "2026-08-11",
+      "cliente": "Mateo Navarro",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 1,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 1.46
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": "P3",
+          "subtotal": 8.49
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 31.25
+        }
+      ],
+      "total_pedido": 41.2
+    },
+    {
+      "id_pedido": "PED-2026-0173",
+      "fecha": "2026-06-11",
+      "cliente": "Luis Cruz",
+      "pais": "Guatemala",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 13.65
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 5,
+          "precio": 4.75,
+          "codigo_descuento": "P5",
+          "subtotal": 22.56
+        }
+      ],
+      "total_pedido": 36.21
+    },
+    {
+      "id_pedido": "PED-2026-0174",
+      "fecha": "2026-10-04",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 7.8
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 6,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 12.6
+        }
+      ],
+      "total_pedido": 20.4
+    },
+    {
+      "id_pedido": "PED-2026-0175",
+      "fecha": "2026-06-24",
+      "cliente": "Roberto Reyes",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 5,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 19.5
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 8,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 27.2
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 51.0
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 7,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 29.4
+        }
+      ],
+      "total_pedido": 127.1
+    },
+    {
+      "id_pedido": "PED-2026-0176",
+      "fecha": "2026-06-01",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": "P5",
+          "subtotal": 29.69
+        }
+      ],
+      "total_pedido": 29.69
+    },
+    {
+      "id_pedido": "PED-2026-0177",
+      "fecha": "2026-02-24",
+      "cliente": "Javier Delgado",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 5,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 28.13
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 3,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 10.2
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 7,
+          "precio": 3.9,
+          "codigo_descuento": "P3",
+          "subtotal": 26.48
+        }
+      ],
+      "total_pedido": 64.81
+    },
+    {
+      "id_pedido": "PED-2026-0178",
+      "fecha": "2026-11-02",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 5,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 8.75
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 2,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 5.0
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 4,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 34.0
+        }
+      ],
+      "total_pedido": 47.75
+    },
+    {
+      "id_pedido": "PED-2026-0179",
+      "fecha": "2026-03-28",
+      "cliente": "Mateo Navarro",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 2,
+          "precio": 2.1,
+          "codigo_descuento": "P10",
+          "subtotal": 3.78
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 7,
+          "precio": 5.8,
+          "codigo_descuento": "P3",
+          "subtotal": 39.38
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 6,
+          "precio": 4.75,
+          "codigo_descuento": "P5",
+          "subtotal": 27.07
+        }
+      ],
+      "total_pedido": 70.23
+    },
+    {
+      "id_pedido": "PED-2026-0180",
+      "fecha": "2026-04-11",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 7,
+          "precio": 2.1,
+          "codigo_descuento": "P25",
+          "subtotal": 11.03
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 6,
+          "precio": 8.5,
+          "codigo_descuento": null,
+          "subtotal": 51.0
+        }
+      ],
+      "total_pedido": 62.03
+    },
+    {
+      "id_pedido": "PED-2026-0181",
+      "fecha": "2026-11-01",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": "P25",
+          "subtotal": 11.7
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 6,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 12.6
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 4,
+          "precio": 9.9,
+          "codigo_descuento": "P10",
+          "subtotal": 35.64
+        }
+      ],
+      "total_pedido": 59.94
+    },
+    {
+      "id_pedido": "PED-2026-0182",
+      "fecha": "2026-10-16",
+      "cliente": "Mariana Castillo",
+      "pais": "El Salvador",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 1,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 4.2
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 8,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 31.2
+        }
+      ],
+      "total_pedido": 35.4
+    },
+    {
+      "id_pedido": "PED-2026-0183",
+      "fecha": "2026-05-30",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 7,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 12.25
+        }
+      ],
+      "total_pedido": 12.25
+    },
+    {
+      "id_pedido": "PED-2026-0184",
+      "fecha": "2026-05-04",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 7,
+          "precio": 2.8,
+          "codigo_descuento": "P25",
+          "subtotal": 14.7
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 7,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 17.5
+        }
+      ],
+      "total_pedido": 32.2
+    },
+    {
+      "id_pedido": "PED-2026-0185",
+      "fecha": "2026-07-04",
+      "cliente": "Hector Vargas",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 4,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 25.0
+        }
+      ],
+      "total_pedido": 25.0
+    },
+    {
+      "id_pedido": "PED-2026-0186",
+      "fecha": "2026-11-10",
+      "cliente": "Eduardo Cruz",
+      "pais": "Costa Rica",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": "P10",
+          "subtotal": 7.02
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 4,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 13.6
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 4,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 18.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 7,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 17.5
+        }
+      ],
+      "total_pedido": 56.12
+    },
+    {
+      "id_pedido": "PED-2026-0187",
+      "fecha": "2026-01-13",
+      "cliente": "Luis Mendoza",
+      "pais": "Nicaragua",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 3,
+          "precio": 2.5,
+          "codigo_descuento": "P10",
+          "subtotal": 6.75
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 8,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 50.0
+        },
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 8,
+          "precio": 1.75,
+          "codigo_descuento": "P3",
+          "subtotal": 13.58
+        }
+      ],
+      "total_pedido": 70.33
+    },
+    {
+      "id_pedido": "PED-2026-0188",
+      "fecha": "2026-08-20",
+      "cliente": "Hugo Herrera",
+      "pais": "Panamá",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 2,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 15.3
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 2,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 7.8
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        }
+      ],
+      "total_pedido": 31.5
+    },
+    {
+      "id_pedido": "PED-2026-0189",
+      "fecha": "2026-10-10",
+      "cliente": "Daniela Aguilar",
+      "pais": "Nicaragua",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 3,
+          "precio": 5.8,
+          "codigo_descuento": "P25",
+          "subtotal": 13.05
+        },
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 7,
+          "precio": 9.9,
+          "codigo_descuento": "P5",
+          "subtotal": 65.83
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 8,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 31.2
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 7,
+          "precio": 2.5,
+          "codigo_descuento": "P5",
+          "subtotal": 16.62
+        }
+      ],
+      "total_pedido": 126.7
+    },
+    {
+      "id_pedido": "PED-2026-0190",
+      "fecha": "2026-02-02",
+      "cliente": "Valeria Rivas",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 4,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 13.6
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 5,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 22.5
+        }
+      ],
+      "total_pedido": 36.1
+    },
+    {
+      "id_pedido": "PED-2026-0191",
+      "fecha": "2026-06-10",
+      "cliente": "Ana Morales",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 8,
+          "precio": 1.95,
+          "codigo_descuento": null,
+          "subtotal": 15.6
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 5,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 31.25
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 2,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 6.8
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": "P10",
+          "subtotal": 21.06
+        }
+      ],
+      "total_pedido": 74.71
+    },
+    {
+      "id_pedido": "PED-2026-0192",
+      "fecha": "2026-03-14",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": "P5",
+          "subtotal": 12.97
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 3,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 14.25
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 3,
+          "precio": 4.5,
+          "codigo_descuento": "P25",
+          "subtotal": 10.12
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 1,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 2.5
+        }
+      ],
+      "total_pedido": 39.84
+    },
+    {
+      "id_pedido": "PED-2026-0193",
+      "fecha": "2026-04-10",
+      "cliente": "Carlos Alvarez",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 8,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 20.0
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 2,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 4,
+          "precio": 5.8,
+          "codigo_descuento": "P10",
+          "subtotal": 20.88
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 4,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 18.0
+        }
+      ],
+      "total_pedido": 67.28
+    },
+    {
+      "id_pedido": "PED-2026-0194",
+      "fecha": "2026-10-17",
+      "cliente": "Mateo Navarro",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 2,
+          "precio": 12.0,
+          "codigo_descuento": "P10",
+          "subtotal": 21.6
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 1,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 4.5
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 8,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 50.0
+        },
+        {
+          "codigo": "PROD-010",
+          "descripcion": "Azúcar de Caña Morena 1kg",
+          "cantidad": 7,
+          "precio": 1.95,
+          "codigo_descuento": "P5",
+          "subtotal": 12.97
+        }
+      ],
+      "total_pedido": 89.07
+    },
+    {
+      "id_pedido": "PED-2026-0195",
+      "fecha": "2026-01-17",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 8,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 2,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 9.0
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 4,
+          "precio": 6.25,
+          "codigo_descuento": "P10",
+          "subtotal": 22.5
+        }
+      ],
+      "total_pedido": 45.5
+    },
+    {
+      "id_pedido": "PED-2026-0196",
+      "fecha": "2026-03-13",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 6,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 23.4
+        },
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 3,
+          "precio": 8.5,
+          "codigo_descuento": "P10",
+          "subtotal": 22.95
+        }
+      ],
+      "total_pedido": 46.35
+    },
+    {
+      "id_pedido": "PED-2026-0197",
+      "fecha": "2026-09-21",
+      "cliente": "Manuel Flores",
+      "pais": "Guatemala",
+      "estado": "C",
+      "articulos": [
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 7,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 33.25
+        }
+      ],
+      "total_pedido": 33.25
+    },
+    {
+      "id_pedido": "PED-2026-0198",
+      "fecha": "2026-03-06",
+      "cliente": "Gabriela Soto",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 6,
+          "precio": 9.9,
+          "codigo_descuento": null,
+          "subtotal": 59.4
+        },
+        {
+          "codigo": "PROD-003",
+          "descripcion": "Chocolate Artesanal 70% Cacao",
+          "cantidad": 7,
+          "precio": 4.75,
+          "codigo_descuento": null,
+          "subtotal": 33.25
+        }
+      ],
+      "total_pedido": 92.65
+    },
+    {
+      "id_pedido": "PED-2026-0199",
+      "fecha": "2026-07-12",
+      "cliente": "Gabriela Soto",
+      "pais": "Guatemala",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 5,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 12.5
+        }
+      ],
+      "total_pedido": 12.5
+    },
+    {
+      "id_pedido": "PED-2026-0200",
+      "fecha": "2026-09-07",
+      "cliente": "Natalia Contreras",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-014",
+          "descripcion": "Snack de Plátano Tostado 120g",
+          "cantidad": 2,
+          "precio": 1.75,
+          "codigo_descuento": null,
+          "subtotal": 3.5
+        }
+      ],
+      "total_pedido": 3.5
+    },
+    {
+      "id_pedido": "PED-2026-0201",
+      "fecha": "2026-07-03",
+      "cliente": "Carmen Salazar",
+      "pais": "Costa Rica",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-004",
+          "descripcion": "Aceite de Coco Virgen 500ml",
+          "cantidad": 5,
+          "precio": 9.9,
+          "codigo_descuento": "P10",
+          "subtotal": 44.55
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 6,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 15.0
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 3,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 13.5
+        },
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 8,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 46.4
+        }
+      ],
+      "total_pedido": 119.45
+    },
+    {
+      "id_pedido": "PED-2026-0202",
+      "fecha": "2026-08-24",
+      "cliente": "Sofia Contreras",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-008",
+          "descripcion": "Queso Seco Tradicional 400g",
+          "cantidad": 1,
+          "precio": 5.8,
+          "codigo_descuento": null,
+          "subtotal": 5.8
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 7,
+          "precio": 4.5,
+          "codigo_descuento": "P5",
+          "subtotal": 29.92
+        }
+      ],
+      "total_pedido": 35.72
+    },
+    {
+      "id_pedido": "PED-2026-0203",
+      "fecha": "2026-05-21",
+      "cliente": "Alejandra Gomez",
+      "pais": "El Salvador",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-005",
+          "descripcion": "Harina de Maíz Nixtamalizada 1kg",
+          "cantidad": 3,
+          "precio": 2.1,
+          "codigo_descuento": "P10",
+          "subtotal": 5.67
+        },
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 4,
+          "precio": 6.25,
+          "codigo_descuento": null,
+          "subtotal": 25.0
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 2,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 6.8
+        }
+      ],
+      "total_pedido": 37.47
+    },
+    {
+      "id_pedido": "PED-2026-0204",
+      "fecha": "2026-02-09",
+      "cliente": "Carlos Alvarez",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-009",
+          "descripcion": "Cardamomo Verde Entero 100g",
+          "cantidad": 8,
+          "precio": 12.0,
+          "codigo_descuento": "P10",
+          "subtotal": 86.4
+        },
+        {
+          "codigo": "PROD-011",
+          "descripcion": "Té Verde Orgánico 25 sobres",
+          "cantidad": 2,
+          "precio": 4.2,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        }
+      ],
+      "total_pedido": 94.8
+    },
+    {
+      "id_pedido": "PED-2026-0205",
+      "fecha": "2026-09-02",
+      "cliente": "Claudia Perez",
+      "pais": "Panamá",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-002",
+          "descripcion": "Miel Orgánica de Abeja 350ml",
+          "cantidad": 2,
+          "precio": 6.25,
+          "codigo_descuento": "P10",
+          "subtotal": 11.25
+        },
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 3,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 8.4
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 3,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 11.7
+        },
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 3,
+          "precio": 4.5,
+          "codigo_descuento": "P3",
+          "subtotal": 13.09
+        }
+      ],
+      "total_pedido": 44.44
+    },
+    {
+      "id_pedido": "PED-2026-0206",
+      "fecha": "2026-04-20",
+      "cliente": "Mateo Navarro",
+      "pais": "Panamá",
+      "estado": "P",
+      "articulos": [
+        {
+          "codigo": "PROD-015",
+          "descripcion": "Mermelada de Guayaba Artesanal 300g",
+          "cantidad": 8,
+          "precio": 4.5,
+          "codigo_descuento": null,
+          "subtotal": 36.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 2,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 5.0
+        }
+      ],
+      "total_pedido": 41.0
+    },
+    {
+      "id_pedido": "PED-2026-0207",
+      "fecha": "2026-10-29",
+      "cliente": "Fernando Herrera",
+      "pais": "Panamá",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 3,
+          "precio": 2.5,
+          "codigo_descuento": "P3",
+          "subtotal": 7.27
+        },
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 4,
+          "precio": 3.4,
+          "codigo_descuento": null,
+          "subtotal": 13.6
+        },
+        {
+          "codigo": "PROD-013",
+          "descripcion": "Semillas de Chía 250g",
+          "cantidad": 5,
+          "precio": 3.9,
+          "codigo_descuento": null,
+          "subtotal": 19.5
+        }
+      ],
+      "total_pedido": 40.37
+    },
+    {
+      "id_pedido": "PED-2026-0208",
+      "fecha": "2026-06-04",
+      "cliente": "Ana Jimenez",
+      "pais": "Guatemala",
+      "estado": "A",
+      "articulos": [
+        {
+          "codigo": "PROD-012",
+          "descripcion": "Pasta de Achiote Natural 200g",
+          "cantidad": 5,
+          "precio": 2.8,
+          "codigo_descuento": null,
+          "subtotal": 14.0
+        },
+        {
+          "codigo": "PROD-007",
+          "descripcion": "Frijol Negro Seleccionado 1kg",
+          "cantidad": 4,
+          "precio": 2.5,
+          "codigo_descuento": null,
+          "subtotal": 10.0
+        }
+      ],
+      "total_pedido": 24.0
+    },
+    {
+      "id_pedido": "PED-2026-0209",
+      "fecha": "2026-11-01",
+      "cliente": "Elena Perez",
+      "pais": "El Salvador",
+      "estado": "O",
+      "articulos": [
+        {
+          "codigo": "PROD-006",
+          "descripcion": "Salsa Picante Habanero 150ml",
+          "cantidad": 6,
+          "precio": 3.4,
+          "codigo_descuento": "P25",
+          "subtotal": 15.3
+        }
+      ],
+      "total_pedido": 15.3
+    },
+    {
+      "id_pedido": "PED-2026-0210",
+      "fecha": "2026-03-30",
+      "cliente": "Natalia Contreras",
+      "pais": "Guatemala",
+      "estado": "E",
+      "articulos": [
+        {
+          "codigo": "PROD-001",
+          "descripcion": "Café Gourmet en Grano 500g",
+          "cantidad": 2,
+          "precio": 8.5,
+          "codigo_descuento": "P5",
+          "subtotal": 16.15
+        }
+      ],
+      "total_pedido": 16.15
+    }
+  ]
+}
