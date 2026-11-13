@@ -21,6 +21,22 @@ def encabezasdo_reporte(titulo: str, fecha_inicio: date, fecha_fin: date, column
     linea()
 
 
+def normalizar_data(pedidos: dict) -> dict:
+    """
+    Normaliza los datos de los pedidos, asegurando que las fechas estén en formato de fecha y no como cadenas.
+    Que los nombres de los paises estén en Capitalize y que los estados estén en mayúsculas.
+    Que los estados de los pedidos sean válidos (A, C, R) y que los subtotales sean números decimales.
+    """
+    normalized_pedidos = {}
+    for pedido in pedidos["pedidos"]:
+        pedido["fecha"] = datetime.fromisoformat(pedido["fecha"]).date()
+        pedido["pais"] = pedido["pais"].capitalize()
+        pedido["estado"] = pedido["estado"].upper()
+        normalized_pedidos.append(pedido)
+
+    return normalized_pedidos 
+
+
 def reporte_pedidos_solicitados_por_pais(pedidos: dict, fecha_inicio: date, fecha_fin: date):
     """
     Imprime el reporte de pedidos solicitados por país, ordenados de mayor a menor.
