@@ -48,7 +48,7 @@ def reporte_pedidos_solicitados_por_pais(pedidos: dict, fecha_inicio: date, fech
     linea()
     
 
-def reporte_pedido(pedido: dict, inicia: date = date.min, finaliza: date = date.max, iva=0.13):
+def reporte_pedido(pedidos: dict, inicia: date = date.min, finaliza: date = date.max, iva=0.13):
     """
     Imprime el reporte de pedidos del periodo indicado y devuelve el total con IVA.
     """
@@ -56,7 +56,7 @@ def reporte_pedido(pedido: dict, inicia: date = date.min, finaliza: date = date.
     tasa_iva = Decimal(str(iva))
     pedidos_periodo = []
 
-    for pedido_actual in pedido:
+    for pedido_actual in pedidos["pedidos"]:
         fecha_pedido = datetime.fromisoformat(pedido_actual["fecha"]).date()
         if inicia <= fecha_pedido <= finaliza    :
             subtotal = sum(
@@ -126,7 +126,7 @@ def leer_pedidos(relative_file_path: str) -> dict:
 def main():
     pedidos = leer_pedidos("pedidos.json")
     #reporte_pedido(pedidos["pedidos"], date(2026, 1, 1), date(2026, 1, 31))
-    #reporte_pedido(pedidos, date(2026, 1, 1), date(2026, 1, 31))
+    reporte_pedido(pedidos, date(2026, 1, 1), date(2026, 1, 31))
     reporte_pedidos_solicitados_por_pais(pedidos, date(2026, 1, 1), date(2026, 1, 31))
 
 
