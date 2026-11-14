@@ -1,13 +1,20 @@
-#!/usr/bin/env python3
+                                                                                                                #!/usr/bin/env python3
 
 import json
 from pathlib import Path
 from datetime import date, datetime
 from decimal import Decimal, ROUND_HALF_UP
 
-def linea():
-    print("-" * 72)
+def ingrensar_periodo(inicio: date, final:date) -> tuple[date , date]:
+    return inicio, final
 
+def linea(simbolo: str = "-", tamaño: int = 72):
+    """
+    Inmprime un linea ASCII
+    * simbolo: Str  Caracter que se repita como parte de la linea
+    * tamaño: int Tamaño en caracteres de la linea 
+    """
+    print( simbolo * tamaño )
 
 
 def encabezasdo_reporte(titulo: str, fecha_inicio: date, fecha_fin: date, columnas: str):
@@ -23,16 +30,36 @@ def encabezasdo_reporte(titulo: str, fecha_inicio: date, fecha_fin: date, column
 
 def normalizar_data(pedidos: dict) -> dict:
     """
-    Normaliza los datos de los pedidos, asegurando que las fechas estén en formato de fecha y no como cadenas.
-    Que los nombres de los paises estén en Capitalize y que los estados estén en mayúsculas.
-    Que los estados de los pedidos sean válidos (A, C, R) y que los subtotales sean números decimales.
+    Normaliza los datos de los pedidos: 
+    * asegurando que las fechas estén en formato de fecha y no como cadenas.
+    * los nombres de los paises estén como titulo.
+    * Los estados se de un solo caracter en mayusculas 
+    * los montos estes en formato valido.
+    y que cumpla las siguientes restricdiones.
+
+    Los pedidos invalidos se almacena en salida datos_invalidos.json
     """
     normalized_pedidos = {}
+    invalidos = {}
+
     for pedido in pedidos["pedidos"]:
-        pedido["fecha"] = datetime.fromisoformat(pedido["fecha"]).date()
-        pedido["pais"] = pedido["pais"].capitalize()
-        pedido["estado"] = pedido["estado"].upper()
-        normalized_pedidos.append(pedido)
+
+        
+        try:
+            pedido["fecha"] = datetime.fromisoformat(pedido["fecha"]).date()
+            pedido["pais"] = pedido["pais"].capitalize()
+            pedido["estado"] = pedido["estado"].upper()
+            
+            normalized_pedidos.append(pedido)
+
+        except Exception as e:
+            pedido["causa"] = f"{e}"
+            normalized_pedidos.append(pedido)
+
+
+        if invalidos.__len__ > 0 :
+            informar_invalidos(invalidos)
+        
 
     return normalized_pedidos 
 
@@ -108,6 +135,15 @@ def reporte_pedido(pedidos: dict, inicia: date = date.min, finaliza: date = date
     print()  # Línea en blanco al final del reporte
     return float(total_con_iva)
 
+def reportar_invalidos(invalidos: dict):
+    """
+    Escribe los pedidos invalidos 
+    """
+    invalidos_file = Path("salida") / "invalidos"
+
+    invalidos.append({"registro", invalidos["pedidos"].length()})
+    Path("salida").mkdir(exist_ok=True)
+    Path("salidas/invalidos.json").write_text(json.dumps(invalidos, indent=2), encoding="utf-8")
 
 def leer_pedidos(relative_file_path: str) -> dict:
     """
@@ -122,7 +158,7 @@ def leer_pedidos(relative_file_path: str) -> dict:
    
     file_path = Path(__file__).parent.resolve() / relative_file_path
     try:
-        pedidos = []    
+        pedidos = {}    
         with open(file_path, "r", encoding="utf-8") as file:
             pedidos = json.load(file)
     except FileNotFoundError:
@@ -139,11 +175,7 @@ def leer_pedidos(relative_file_path: str) -> dict:
 
 
 
-def main():
-    pedidos = leer_pedidos("pedidos.json")
-    #reporte_pedido(pedidos["pedidos"], date(2026, 1, 1), date(2026, 1, 31))
-    reporte_pedido(pedidos, date(2026, 1, 1), date(2026, 1, 31))
-    reporte_pedidos_solicitados_por_pais(pedidos, date(2026, 1, 1), date(2026, 1, 31))
+
 
 
 if __name__ == "__main__":
