@@ -1,11 +1,13 @@
                                                                                                                 #!/usr/bin/env python3
 
 import json
+import re
 import sys 
+from copy import deepcopy
 from calendar import monthrange
 from pathlib import Path
 from datetime import date, datetime
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 
 
 VERSION = "1.0"
@@ -180,7 +182,7 @@ def reportar_invalidos(invalidos: dict) -> None :
 
     try:
         with open( file_path, "w", encoding="utf-8") as file:
-            json.dump(invalidos, file, indent=2)
+            json.dump(invalidos, file, indent=2, ensure_ascii=False)
         print(f"Archivo {file_path} fue creadi.")
 
 
@@ -220,12 +222,248 @@ def normalizar(data: dict) -> dict:
     La data solo tiene str. Asi que convertir a sus tipos de datos
     """
 
-    pedidos_normalizados = {} 
-    invalidos = {} 
+    if not isinstance(data, dict) or not isinstance(data.get("pedidos"), list):
+        raise ValueError("Se esperaba un diccionario con una lista 'pedidos'.")
 
-    # <Implementar aqui>
-    
-    
+    pedidos_normalizados = {"pedidos": []}
+    invalidos = {"pedidos_invalidos": []}
+    campos_pedido = ("id", "fecha", "empresa", "estado", "pais", "detalle")
+    campos_detalle = ("codigo", "descripcion", "cantidad", "precio", "subtotal")
+    descuentos_validos = {"P03", "P05", "P10", "P15", "P25", "P35"}
+    patron_id = re.compile(r"PED-(\d{4})-\d{4}")
+    centavo = Decimal("0.01")
+
+    for pedido_pos, pedido_original in enumerate(data["pedidos"], start=1):
+        errores_antes = len(invalidos["pedidos_invalidos"])
+        pedido = deepcopy(pedido_original)
+        pedido_id = pedido.get("id") if isinstance(pedido, dict) else None
+        if isinstance(pedido_id, str):
+            pedido_id = pedido_id.strip().upper()
+
+        def registrar_error(restriccion: str, mensaje: str) -> None:
+            invalidos["pedidos_invalidos"].append(
+                {
+                    "pedido_pos": pedido_pos,
+                    "id": pedido_id,
+                    "restriccion": restriccion,
+                    "mensaje": mensaje,
+                    "data": deepcopy(pedido_original),
+                }
+            )
+
+        if not isinstance(pedido, dict):
+            registrar_error("PED-Q3", "El pedido debe ser un objeto.")
+            continue
+
+        campos_faltantes = [
+            campo
+            for campo in campos_pedido
+            if campo not in pedido
+            or pedido[campo] is None
+            or (isinstance(pedido[campo], str) and not pedido[campo].strip())
+        ]
+        if campos_faltantes:
+            registrar_error(
+                "PED-Q3",
+                f"Faltan datos requeridos del pedido: {', '.join(campos_faltantes)}.",
+            )
+
+        for campo in ("id", "estado"):
+            valor = pedido.get(campo)
+            if isinstance(valor, str):
+                pedido[campo] = valor.strip().upper()
+            elif valor is not None:
+                registrar_error("PED-Q4", f"El campo '{campo}' debe ser texto.")
+
+        for campo in ("empresa", "pais"):
+            valor = pedido.get(campo)
+            if isinstance(valor, str):
+                pedido[campo] = valor.strip().title()
+            elif valor is not None:
+                registrar_error("PED-Q4", f"El campo '{campo}' debe ser texto.")
+
+        fecha_pedido = None
+        valor_fecha = pedido.get("fecha")
+        if isinstance(valor_fecha, datetime):
+            fecha_pedido = valor_fecha
+        elif isinstance(valor_fecha, str):
+            try:
+                fecha_pedido = datetime.strptime(
+                    valor_fecha.strip(), "%Y-%m-%d %H:%M:%S"
+                )
+            except ValueError:
+                registrar_error("PED-Q4", "El campo 'fecha' no tiene un formato válido.")
+        elif valor_fecha is not None:
+            registrar_error("PED-Q4", "El campo 'fecha' debe ser una fecha válida.")
+        if fecha_pedido is not None:
+            pedido["fecha"] = fecha_pedido
+
+        coincidencia_id = (
+            patron_id.fullmatch(pedido["id"])
+            if isinstance(pedido.get("id"), str)
+            else None
+        )
+        if pedido.get("id") and coincidencia_id is None:
+            registrar_error("ENC-Q1", "El id debe cumplir el formato PED-AAAA-NNNN.")
+        elif coincidencia_id and fecha_pedido is not None:
+            if int(coincidencia_id.group(1)) != fecha_pedido.year:
+                registrar_error("ENC-Q2", "El año del id no coincide con la fecha del pedido.")
+
+        estado = pedido.get("estado")
+        if isinstance(estado, str) and estado not in {"A", "S", "P", "E", "C"}:
+            registrar_error("ENC-Q3", "El estado solo puede ser A, S, P, E o C.")
+
+        detalle = pedido.get("detalle")
+        if isinstance(detalle, list):
+            if not detalle:
+                registrar_error("PED-Q2", "El pedido debe contener al menos un detalle.")
+            detalles_normalizados = []
+            for detalle_pos, item_original in enumerate(detalle, start=1):
+                if not isinstance(item_original, dict):
+                    registrar_error(
+                        "PED-Q1", f"El detalle {detalle_pos} debe ser un objeto."
+                    )
+                    continue
+
+                item = deepcopy(item_original)
+                campos_detalle_faltantes = [
+                    campo
+                    for campo in campos_detalle
+                    if campo not in item
+                    or item[campo] is None
+                    or (isinstance(item[campo], str) and not item[campo].strip())
+                ]
+                for campo in campos_detalle_faltantes:
+                    registrar_error(
+                        "PED-Q1",
+                        f"Falta el campo requerido '{campo}' en el detalle {detalle_pos}.",
+                    )
+
+                codigo = item.get("codigo")
+                if isinstance(codigo, str):
+                    item["codigo"] = codigo.strip().upper()
+                elif codigo is not None:
+                    registrar_error(
+                        "PED-Q4", f"El código del detalle {detalle_pos} debe ser texto."
+                    )
+
+                descripcion = item.get("descripcion")
+                if isinstance(descripcion, str):
+                    item["descripcion"] = descripcion.strip().title()
+                    if len(item["descripcion"]) < 5:
+                        registrar_error(
+                            "DET-02",
+                            f"La descripción del detalle {detalle_pos} debe tener al menos 5 caracteres.",
+                        )
+                elif descripcion is not None:
+                    registrar_error(
+                        "PED-Q4",
+                        f"La descripción del detalle {detalle_pos} debe ser texto.",
+                    )
+
+                cantidad = None
+                valor_cantidad = item.get("cantidad")
+                if valor_cantidad is not None:
+                    try:
+                        cantidad_decimal = Decimal(str(valor_cantidad))
+                        if (
+                            isinstance(valor_cantidad, bool)
+                            or not cantidad_decimal.is_finite()
+                            or cantidad_decimal != cantidad_decimal.to_integral_value()
+                        ):
+                            raise InvalidOperation
+                        cantidad = int(cantidad_decimal)
+                        item["cantidad"] = cantidad
+                    except (InvalidOperation, ValueError, TypeError, OverflowError):
+                        registrar_error(
+                            "PED-Q4",
+                            f"La cantidad del detalle {detalle_pos} no es un entero válido.",
+                        )
+                if cantidad is not None and cantidad <= 0:
+                    registrar_error(
+                        "DET-01",
+                        f"La cantidad del detalle {detalle_pos} debe ser mayor que cero.",
+                    )
+
+                montos = {}
+                for campo in ("precio", "subtotal"):
+                    valor = item.get(campo)
+                    if valor is None:
+                        continue
+                    try:
+                        monto = Decimal(str(valor))
+                        if isinstance(valor, bool) or not monto.is_finite():
+                            raise InvalidOperation
+                        monto = monto.quantize(centavo, rounding=ROUND_HALF_UP)
+                        item[campo] = monto
+                        montos[campo] = monto
+                    except (InvalidOperation, ValueError, TypeError):
+                        registrar_error(
+                            "PED-Q4",
+                            f"El campo '{campo}' del detalle {detalle_pos} no es un decimal válido.",
+                        )
+
+                precio = montos.get("precio")
+                if precio is not None and precio <= 0:
+                    registrar_error(
+                        "DET-03",
+                        f"El precio del detalle {detalle_pos} debe ser mayor que cero.",
+                    )
+
+                descuento = item.get("codigo_descuento")
+                if descuento is None:
+                    item["codigo_descuento"] = None
+                    descuento = None
+                elif isinstance(descuento, str):
+                    descuento = descuento.strip().upper()
+                    descuento = {"P3": "P03", "P5": "P05"}.get(descuento, descuento)
+                    item["codigo_descuento"] = descuento
+                    if descuento not in descuentos_validos:
+                        registrar_error(
+                            "DET-04",
+                            f"El descuento del detalle {detalle_pos} no es válido.",
+                        )
+                else:
+                    registrar_error(
+                        "DET-04",
+                        f"El descuento del detalle {detalle_pos} debe ser un código válido o null.",
+                    )
+                    descuento = None
+
+                if (
+                    cantidad is not None
+                    and cantidad > 0
+                    and precio is not None
+                    and precio > 0
+                    and "subtotal" in montos
+                    and descuento in descuentos_validos | {None}
+                ):
+                    porcentaje = (
+                        Decimal(descuento[1:]) / Decimal("100")
+                        if descuento is not None
+                        else Decimal("0")
+                    )
+                    subtotal_esperado = (
+                        cantidad * precio * (Decimal("1") - porcentaje)
+                    ).quantize(centavo, rounding=ROUND_HALF_UP)
+                    if montos["subtotal"] != subtotal_esperado:
+                        registrar_error(
+                            "DET-05",
+                            f"El subtotal del detalle {detalle_pos} no coincide con su cantidad, precio y descuento.",
+                        )
+
+                detalles_normalizados.append(item)
+
+            pedido["detalle"] = detalles_normalizados
+        elif detalle is not None:
+            registrar_error("PED-Q4", "El campo 'detalle' debe ser una lista.")
+
+        if len(invalidos["pedidos_invalidos"]) == errores_antes:
+            pedidos_normalizados["pedidos"].append(pedido)
+
+    if invalidos["pedidos_invalidos"]:
+        reportar_invalidos(invalidos)
+
     return pedidos_normalizados
 
 
@@ -258,12 +496,11 @@ def leer_pedidos(file_path: str) -> dict:
     return pedidos       
 
 
-def recuperar_pedidos(ubicacion_json: str) -> dict:
+def recuperar_pedidos(ubicacion_json: str = "pedidos.json") -> dict:
     """
+        recupera la data. 
     """
-
     file_path = Path(__file__).parent.resolve() / ubicacion_json
     data = leer_pedidos(file_path)
-    #pedidos = normalizar(data)
-    reportar_invalidos(data)
-
+    pedidos = normalizar(data)
+    return pedidos 

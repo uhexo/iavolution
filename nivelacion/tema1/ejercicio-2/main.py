@@ -88,8 +88,6 @@ def main() -> None:
     menu()
 
 if __name__ == "__main__":
-    file_path = Path(__file__).parent.resolve() / "pedidos.json"
-    pedidos = leer_pedidos( file_path )
-    reportar_invalidos(pedidos)
+    pedidos = recuperar_pedidos()
 
     #main()

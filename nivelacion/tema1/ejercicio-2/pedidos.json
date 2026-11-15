@@ -1,14 +1,14 @@
 {
   "pedidos": [
     {
-      "id": "PED-2026-0001",
+      "id": "PED-2025-0001",
       "fecha": "2026-03-23 19:54:10",
       "empresa": "Comercial El Buen Camino",
       "pais": "Panamá",
       "estado": "C",
       "detalle": [
         {
-          "codigo": "PROD-007",
+          "codigo": "PROD-0007",
           "descripcion": "Salsa picante de chile habanero 150ml",
           "cantidad": 6,
           "precio": 8.2,
@@ -65,7 +65,7 @@
       "estado": "P",
       "detalle": [
         {
-          "codigo": "PROD-020",
+          "codigo": "",
           "descripcion": "Crema de cacahuate natural 340g",
           "cantidad": 4,
           "precio": 17.9,
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "id": "PED-2026-0003",
+      "id": "",
       "fecha": "2026-03-08 09:46:55",
       "empresa": "Abastos Centroamericanos",
       "pais": "Nicaragua",
@@ -102,7 +102,7 @@
           "descripcion": "Salsa picante de chile habanero 150ml",
           "cantidad": 5,
           "precio": 10.01,
-          "codigo_descuento": "P10",
+          "codigo_descuento": "P11",
           "subtotal": 45.05
         },
         {
@@ -127,7 +127,7 @@
           "cantidad": 4,
           "precio": 25.78,
           "codigo_descuento": "P3",
-          "subtotal": 100.03
+          "subtotal": 10000.03
         }
       ]
     },
@@ -136,7 +136,7 @@
       "fecha": "2026-06-16 18:14:44",
       "empresa": "Distribuidora El Roble",
       "pais": "El Salvador",
-      "estado": "A",
+      "estado": "T",
       "detalle": [
         {
           "codigo": "PROD-009",
@@ -150,7 +150,7 @@
           "codigo": "PROD-004",
           "descripcion": "Aceite de coco virgen 500ml",
           "cantidad": 8,
-          "precio": 6.31,
+          "precio": "-6.31",
           "codigo_descuento": null,
           "subtotal": 50.48
         },
@@ -168,7 +168,7 @@
       "id": "PED-2026-0005",
       "fecha": "2026-01-31 04:35:50",
       "empresa": "Distribuciones Santa Ana",
-      "pais": "Honduras",
+      "pais": "Hondura",
       "estado": "C",
       "detalle": [
         {
@@ -182,7 +182,7 @@
         {
           "codigo": "PROD-001",
           "descripcion": "Café de altura molido 500g",
-          "cantidad": 1,
+          "cantidad": -3,
           "precio": 21.3,
           "codigo_descuento": null,
           "subtotal": 21.3
@@ -197,7 +197,7 @@
         },
         {
           "codigo": "PROD-011",
-          "descripcion": "Té verde orgánico 25 sobres",
+          "descripcion": "Té VERDE orgánico 25 sobres",
           "cantidad": 1,
           "precio": 6.2,
           "codigo_descuento": "P5",
