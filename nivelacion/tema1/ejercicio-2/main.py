@@ -6,7 +6,9 @@ from ejercicio_2 import  *
 
 
 def verify_bash_shell() -> None:
-    """Validates that the immediate parent process of this Python script is bash."""
+    """
+        Valida que este script de python solo puede ser ejecutado bash shell.¡
+    """
     try:
         ppid = os.getppid()
         # Query the parent process command name (works on macOS and Linux)
@@ -36,23 +38,15 @@ def clear_screen() -> None:
     os.system("clear")
 
 
-def generate_reporte_vacio() -> None:
+def reporte_none() -> None:
     print("\n--- Executing Report 1 ---")
     # Add your report 1 logic here
 
 
-def main() -> None:
-    verify_bash_shell()
-
-    pedidos = leer_pedidos("pedidos.json")
-    #reporte_pedido(pedidos["pedidos"], date(2026, 1, 1), date(2026, 1, 31))
-
-    periodo_inicio = date(2026, 1, 1)
-    periodo_final = date(2026, 1, 31)
-
+def menu() -> None:
 
     while True:
-        #clear_screen()
+        clear_screen()
         print("==============================")
         print("        REPORTS MENU          ")
         print("==============================")
@@ -79,5 +73,23 @@ def main() -> None:
         input("\nPress Enter to return to the menu...")
 
 
+def main() -> None:
+    """
+    Programa principal  
+    """
+
+    verify_bash_shell() 
+
+    pedidos = recuperar_pedidos("pedidos.json")
+
+    periodo_inicio = date(2026, 1, 1)
+    periodo_final = date(2026, 1, 31)
+
+    menu()
+
 if __name__ == "__main__":
-    main()
+    file_path = Path(__file__).parent.resolve() / "pedidos.json"
+    pedidos = leer_pedidos( file_path )
+    reportar_invalidos(pedidos)
+
+    #main()

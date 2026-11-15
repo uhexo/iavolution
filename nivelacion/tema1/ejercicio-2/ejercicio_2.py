@@ -1,12 +1,80 @@
                                                                                                                 #!/usr/bin/env python3
 
 import json
+import sys 
+from calendar import monthrange
 from pathlib import Path
 from datetime import date, datetime
 from decimal import Decimal, ROUND_HALF_UP
 
-def ingrensar_periodo(inicio: date, final:date) -> tuple[date , date]:
-    return inicio, final
+
+VERSION = "1.0"
+
+__EJERCICIO_2__ = False
+if __EJERCICIO_2__ :
+    exit 
+else:
+    __EJERCICIO_2__ = True
+
+
+def ingrensar_periodo(inicio: date = date.min, final:date = date.max) -> tuple[date , date]:
+    """
+    Solicita el ingreso del periodo para los reportes
+    * inicio: date. Fecha de inicio del periodo. 
+        Por omisión, el valor pasado como argumento, el primer dia del mes actual o usar * desde el principio
+    * final: date. Fecha final del periodo. 
+        Por omisión el ultimo día del mes actual o usar * para hasta el final.
+    El formato para las fechas es dd/mm/yyyy en caso desde una fecha sea un límite representar con * 
+    
+    Restriciones:
+    * La fecha final puede ser mayor o igual a la menor
+
+    Al haber un ingreso invalido repite la solicitud de ambos valores.
+    """
+    hoy = date.today()
+    inicio_predeterminado = (
+        date(hoy.year, hoy.month, 1) if inicio == date.min else inicio
+    )
+    final_predeterminado = (
+        date(hoy.year, hoy.month, monthrange(hoy.year, hoy.month)[1])
+        if final == date.max
+        else final
+    )
+
+    while True:
+        inicio_ingresado = input(
+            f"Fecha de inicio [dd/mm/aaaa, *] "
+            f"(Enter: {inicio_predeterminado.strftime('%d/%m/%Y')}): "
+        ).strip()
+        final_ingresado = input(
+            f"Fecha final [dd/mm/aaaa, *] "
+            f"(Enter: {final_predeterminado.strftime('%d/%m/%Y')}): "
+        ).strip()
+
+        try:
+            ini = (
+                inicio_predeterminado
+                if not inicio_ingresado
+                else date.min
+                if inicio_ingresado == "*"
+                else datetime.strptime(inicio_ingresado, "%d/%m/%Y").date()
+            )
+            fin = (
+                final_predeterminado
+                if not final_ingresado
+                else date.max
+                if final_ingresado == "*"
+                else datetime.strptime(final_ingresado, "%d/%m/%Y").date()
+            )
+        except ValueError:
+            print("Fecha inválida. Use dd/mm/aaaa o *; vuelva a ingresar ambas fechas.")
+            continue
+
+        if ini > fin:
+            print("El inicio no puede ser posterior al final; vuelva a ingresar ambas fechas.")
+            continue
+
+        return ini, fin
 
 def linea(simbolo: str = "-", tamaño: int = 72):
     """
@@ -27,41 +95,6 @@ def encabezasdo_reporte(titulo: str, fecha_inicio: date, fecha_fin: date, column
     print(columnas)
     linea()
 
-
-def normalizar_data(pedidos: dict) -> dict:
-    """
-    Normaliza los datos de los pedidos: 
-    * asegurando que las fechas estén en formato de fecha y no como cadenas.
-    * los nombres de los paises estén como titulo.
-    * Los estados se de un solo caracter en mayusculas 
-    * los montos estes en formato valido.
-    y que cumpla las siguientes restricdiones.
-
-    Los pedidos invalidos se almacena en salida datos_invalidos.json
-    """
-    normalized_pedidos = {}
-    invalidos = {}
-
-    for pedido in pedidos["pedidos"]:
-
-        
-        try:
-            pedido["fecha"] = datetime.fromisoformat(pedido["fecha"]).date()
-            pedido["pais"] = pedido["pais"].capitalize()
-            pedido["estado"] = pedido["estado"].upper()
-            
-            normalized_pedidos.append(pedido)
-
-        except Exception as e:
-            pedido["causa"] = f"{e}"
-            normalized_pedidos.append(pedido)
-
-
-        if invalidos.__len__ > 0 :
-            informar_invalidos(invalidos)
-        
-
-    return normalized_pedidos 
 
 
 def reporte_pedidos_solicitados_por_pais(pedidos: dict, fecha_inicio: date, fecha_fin: date):
@@ -135,17 +168,68 @@ def reporte_pedido(pedidos: dict, inicia: date = date.min, finaliza: date = date
     print()  # Línea en blanco al final del reporte
     return float(total_con_iva)
 
-def reportar_invalidos(invalidos: dict):
+def reportar_invalidos(invalidos: dict) -> None :
     """
-    Escribe los pedidos invalidos 
+    Escribe los pedididos invalidos 
     """
-    invalidos_file = Path("salida") / "invalidos"
 
-    invalidos.append({"registro", invalidos["pedidos"].length()})
-    Path("salida").mkdir(exist_ok=True)
-    Path("salidas/invalidos.json").write_text(json.dumps(invalidos, indent=2), encoding="utf-8")
+    salida = Path(sys.prefix).parent.resolve() / "salida"
+    file_path = salida / "invalidos.json"
 
-def leer_pedidos(relative_file_path: str) -> dict:
+    salida.mkdir(exist_ok=True)   
+
+    try:
+        with open( file_path, "w", encoding="utf-8") as file:
+            json.dump(invalidos, file, indent=2)
+        print(f"Archivo {file_path} fue creadi.")
+
+
+    except Exception as e:
+        print(f"Error inesperado al escribir el archivo de invalidos: {e}")      
+        print(f"Archivo {file_path} no fue escrito.")
+        quit(-1)  # Salir del programa si no se pudieron cargar los pedidos
+    
+       
+
+    
+
+
+def normalizar(data: dict) -> dict:
+    """
+    Normaliza los datos de los pedidos:
+    
+    El proceso de normalizacion consiste en autocorregir los datos, 
+    llevarlos a su tipo de dato esperado y 
+    eliminar los pedidos que no cumplan con las restricciones
+
+    * Recibe:
+    data dict pedidos recuperados.
+
+    * Retorna: dict con los datos validos y normalizados.
+    * Si existe datos invalidos son escrito en invalidos y llama la rutina reportar_invalidos. 
+
+    De acuerdo a lo especificado en estrudtura_pedidos.md
+
+    * aplicar las autocorreciones descripta en el documento estructura_pedidos-.
+    * revisa el cunplimiento de las restriciones
+
+    Los pedidos correctos son agreagos a la dict pedidos_normalizados
+
+    El ciclo solo aborta hasta que se revisen todos los pedidos en data.
+
+    La data solo tiene str. Asi que convertir a sus tipos de datos
+    """
+
+    pedidos_normalizados = {} 
+    invalidos = {} 
+
+    # <Implementar aqui>
+    
+    
+    return pedidos_normalizados
+
+
+def leer_pedidos(file_path: str) -> dict:
     """
     Lee ycarga los pedidos desde un archivo JSON.
 
@@ -156,7 +240,7 @@ def leer_pedidos(relative_file_path: str) -> dict:
         list: Lista de pedidos cargados desde el archivo.
     """
    
-    file_path = Path(__file__).parent.resolve() / relative_file_path
+   
     try:
         pedidos = {}    
         with open(file_path, "r", encoding="utf-8") as file:
@@ -174,9 +258,12 @@ def leer_pedidos(relative_file_path: str) -> dict:
     return pedidos       
 
 
+def recuperar_pedidos(ubicacion_json: str) -> dict:
+    """
+    """
 
+    file_path = Path(__file__).parent.resolve() / ubicacion_json
+    data = leer_pedidos(file_path)
+    #pedidos = normalizar(data)
+    reportar_invalidos(data)
 
-
-
-if __name__ == "__main__":
-    main()
