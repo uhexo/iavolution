@@ -1,6 +1,7 @@
                                                                                                                 #!/usr/bin/env python3
 
 import json
+import hashlib
 import re
 import sys 
 from copy import deepcopy
@@ -169,6 +170,40 @@ def reporte_pedido(pedidos: dict, inicia: date = date.min, finaliza: date = date
     print("-" * 72)
     print()  # Línea en blanco al final del reporte
     return float(total_con_iva)
+
+def serializar_valor(valor: object) -> str:
+    if isinstance(valor, (date, datetime)):
+        return valor.isoformat()
+    if isinstance(valor, Decimal):
+        return format(valor, "f")
+    raise TypeError(f"Tipo no serializable para el checksum: {type(valor).__name__}")
+
+def reportar(data: any, filename: str) -> None :
+    """
+    Escribe en la salida
+    """
+
+    salida = Path(sys.prefix).parent.resolve() / "salida"
+    file_path = salida / filename 
+
+    salida.mkdir(exist_ok=True)   
+
+    try:
+        with open( file_path, "w", encoding="utf-8") as file:
+            if type(data) = "dict":
+                json.dump(data, file, indent=2, ensure_ascii=False)
+            elif type(data) = "str":
+                file.write(data)
+            else:
+                raise "Tipo de dato no experado" 
+    
+        print(f"Archivo {file_path} fue creado.")
+
+    except Exception as e:
+        print(f"Error inesperado al escribir el archivo de invalidos: {e}")      
+        print(f"Archivo {file_path} no fue escrito.")
+        quit(-1)  # Salir del programa si no se pudieron cargar los pedidos
+    
 
 
 
@@ -505,8 +540,8 @@ def recuperar_pedidos(ubicacion_json: str = "pedidos.json") -> dict:
     Recibe
     * ubicacion_json: str La ubicacion del archivo con respecto a data. Por omision es pedidos.json
 
-    Retorna: 
-    * dict: Diccionario con el listado de los pedidos recibidos.
+    Retorna:
+    * dict: Pedidos normalizados con los totales recibidos/válidos y el MD5 de la lista.
     
     Excepicion:
     * Termina el programa al haber un problema de lectura del archivop
@@ -518,4 +553,19 @@ def recuperar_pedidos(ubicacion_json: str = "pedidos.json") -> dict:
     file_path = data_dir / ubicacion_json
     data = leer_pedidos(file_path)
     pedidos = normalizar(data)
+
+ 
+
+    contenido = json.dumps(
+        pedidos["pedidos"],
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+        default=serializar_valor,
+    ).encode("utf-8")
+
+    pedidos["recibidos"] = len(data["pedidos"])
+    pedidos["validos"] = len(pedidos["pedidos"])
+    pedidos["check"] = hashlib.md5(contenido, usedforsecurity=False).hexdigest()
+
     return pedidos 
