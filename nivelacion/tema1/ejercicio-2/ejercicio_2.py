@@ -170,6 +170,8 @@ def reporte_pedido(pedidos: dict, inicia: date = date.min, finaliza: date = date
     print()  # Línea en blanco al final del reporte
     return float(total_con_iva)
 
+
+
 def reportar_invalidos(invalidos: dict) -> None :
     """
     Escribe los pedididos invalidos 
@@ -498,9 +500,22 @@ def leer_pedidos(file_path: str) -> dict:
 
 def recuperar_pedidos(ubicacion_json: str = "pedidos.json") -> dict:
     """
-        recupera la data. 
+    recupera la data. 
+
+    Recibe
+    * ubicacion_json: str La ubicacion del archivo con respecto a data. Por omision es pedidos.json
+
+    Retorna: 
+    * dict: Diccionario con el listado de los pedidos recibidos.
+    
+    Excepicion:
+    * Termina el programa al haber un problema de lectura del archivop
+    * Las incosistencias son almacenadas en la salida
+    
     """
-    file_path = Path(__file__).parent.resolve() / ubicacion_json
+    
+    data_dir = Path(sys.prefix).parent.resolve() / "data"
+    file_path = data_dir / ubicacion_json
     data = leer_pedidos(file_path)
     pedidos = normalizar(data)
     return pedidos 

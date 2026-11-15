@@ -8,6 +8,10 @@
 !nivelacion/
 !nivelacion/**/
 
+!data/
+!data/**/
+
+
 # Except all files with these extensions
 !*.py   
 !*.ipynb
