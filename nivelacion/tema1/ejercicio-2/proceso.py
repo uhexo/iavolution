@@ -19,65 +19,7 @@ if __EJERCICIO_2__ :
 else:
     __EJERCICIO_2__ = True
 
-
-def ingrensar_periodo(inicio: date = date.min, final:date = date.max) -> tuple[date , date]:
-    """
-    Solicita el ingreso del periodo para los reportes
-    * inicio: date. Fecha de inicio del periodo. 
-        Por omisión, el valor pasado como argumento, el primer dia del mes actual o usar * desde el principio
-    * final: date. Fecha final del periodo. 
-        Por omisión el ultimo día del mes actual o usar * para hasta el final.
-    El formato para las fechas es dd/mm/yyyy en caso desde una fecha sea un límite representar con * 
     
-    Restriciones:
-    * La fecha final puede ser mayor o igual a la menor
-
-    Al haber un ingreso invalido repite la solicitud de ambos valores.
-    """
-    hoy = date.today()
-    inicio_predeterminado = (
-        date(hoy.year, hoy.month, 1) if inicio == date.min else inicio
-    )
-    final_predeterminado = (
-        date(hoy.year, hoy.month, monthrange(hoy.year, hoy.month)[1])
-        if final == date.max
-        else final
-    )
-
-    while True:
-        inicio_ingresado = input(
-            f"Fecha de inicio [dd/mm/aaaa, *] "
-            f"(Enter: {inicio_predeterminado.strftime('%d/%m/%Y')}): "
-        ).strip()
-        final_ingresado = input(
-            f"Fecha final [dd/mm/aaaa, *] "
-            f"(Enter: {final_predeterminado.strftime('%d/%m/%Y')}): "
-        ).strip()
-
-        try:
-            ini = (
-                inicio_predeterminado
-                if not inicio_ingresado
-                else date.min
-                if inicio_ingresado == "*"
-                else datetime.strptime(inicio_ingresado, "%d/%m/%Y").date()
-            )
-            fin = (
-                final_predeterminado
-                if not final_ingresado
-                else date.max
-                if final_ingresado == "*"
-                else datetime.strptime(final_ingresado, "%d/%m/%Y").date()
-            )
-        except ValueError:
-            print("Fecha inválida. Use dd/mm/aaaa o *; vuelva a ingresar ambas fechas.")
-            continue
-
-        if ini > fin:
-            print("El inicio no puede ser posterior al final; vuelva a ingresar ambas fechas.")
-            continue
-
-        return ini, fin
 
 def linea(simbolo: str = "-", tamaño: int = 72):
     """
@@ -98,6 +40,27 @@ def encabezasdo_reporte(titulo: str, fecha_inicio: date, fecha_fin: date, column
     print(columnas)
     linea()
 
+
+def pie_reporte() -> None:
+    linea()
+    print(f"Emitido {date}")
+    linea()
+    print()
+
+def reporte_none() -> None:
+    encabezasdo_reporte("Encabezado")
+    print("\n--- Executing Report patron ---")
+    pie_reporte()
+    # Add your report 1 logic here
+
+
+def reporte_inconsistencias():
+    """
+    muestra el resumen de las inconsitencias encontradas    
+    """
+    encabezasdo_reporte(
+        "Inconsistencias Encontradas"
+    )
 
 
 def reporte_pedidos_solicitados_por_pais(pedidos: dict, fecha_inicio: date, fecha_fin: date):
