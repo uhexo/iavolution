@@ -8,6 +8,10 @@
 !nivelacion/
 !nivelacion/**/
 
+!src/
+!scr/**/
+
+
 !data/
 !data/**/
 
