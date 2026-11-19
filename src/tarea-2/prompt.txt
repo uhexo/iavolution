@@ -1,0 +1,19 @@
+As a developer in Python:
+
+Write a script what asks for a value in euros and  converts it to dollars.
+The script will be use the function:
+
+* convertir_dolars_euros(monto_en_euros:Decimal) -> Decimal:
+This function make the convertion of currencies.    
+
+* main() -> None: 
+this function will ask for value in euros, 
+checks it is decimal of 2 decimal and casts to decimal type.  
+If the value is incorrect, ask again.  
+The question  offers the value 150 USD and q as quit 
+
+
+Could you implement the script using shengban,
+ensure that main() don't will execute indirect
+concern the localization, this script will be executee in US, SV and ES
+add comment and its documentation on spanish  
